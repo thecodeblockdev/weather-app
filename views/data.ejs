@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+<div class="main">
+    <h1 class="temp">The temperature in <span class="query"> <%= query%></span> is : <%= temperature %>degree celcius</h1>
+    <h2>Weather description is:  <%= weatherDescription %></h2>
+    <img src="<%= imageURL %>" alt="">    
+</div>
+
+
+<%- include('partials/footer') %>
+
+<!-- create a public folder inside which we should have a css folder with one style.css file linked to the webpage  -->

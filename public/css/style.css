@@ -1,0 +1,37 @@
+body{
+    font-family: 'chalkboard';
+}
+h1{
+    color:blue;
+}
+div{
+    width:600px;
+    margin:0 auto;
+}
+.input{
+    margin-top: 100px;
+    padding:20px;
+    border:1px solid grey;
+    border-radius:12px 16px;
+}
+button{
+    padding:10px;
+    background-color:blueviolet;
+    color:white;
+    width: 100px;
+    border:none;
+    border-radius:12px 16px;
+}
+.temp{
+    color:black;
+}
+.query{
+    color:orchid;
+    text-transform: uppercase;
+}
+img{
+    background-color: blueviolet;
+}
+.main{
+    margin-top:200px;
+}
